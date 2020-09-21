@@ -11,11 +11,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * RESTful apidemo
+ * RESTful api demo
  */
 @Path("/hello")
 public class Hello {
-    @Path("get")
+    @Path("getstudent")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Response getStudent() {
